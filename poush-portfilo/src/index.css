@@ -1,0 +1,56 @@
+.po {
+  display: flex;
+  border-radius: 50%;
+  justify-content: flex-end;
+  /* Aligns content to the right */
+  align-items: center;
+  /* Vertically centers content */
+  height: 50vh;
+}
+
+main {
+  padding: 20px;
+  min-height: 60vh;
+
+  /* Ensures it fills most of the screen */
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 100%;
+
+
+  text-align: center;
+  padding: 20px;
+
+
+
+
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
+    .nav-link:hover {
+    color: #ff9d00;
+    text-decoration: none; 
+    background-color: red;
+  }  
+.navbar-brand:hover {
+  background-color: red;
+}
+
+/* .text-center:hover {
+  background-color: orangered;
+  color: white;
+
+} */
+
+.navbar-brand {
+  border-radius: 50%;
+}

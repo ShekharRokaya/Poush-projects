@@ -20,8 +20,6 @@ main {
   color: white;
   height: 80px;
   width: 100%;
-
-
   text-align: center;
   padding: 20px;
 
@@ -34,13 +32,19 @@ main {
   background-color: red;
   color: white;
   text-decoration: none;
+
+    transform: scale(1.1);
+    transition: 0.3s;
+  
+  
 }
 
-    .nav-link:hover {
-    color: #ff9d00;
-    text-decoration: none; 
-    background-color: red;
-  }  
+.nav-link:hover {
+  color: #ff9d00;
+  text-decoration: none;
+  background-color: red;
+}
+
 .navbar-brand:hover {
   background-color: red;
 }
@@ -53,4 +57,22 @@ main {
 
 .navbar-brand {
   border-radius: 50%;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+}
+
+.card {
+  border: 1000px;
+}
+
+h3 {
+  text-align: center;
+
+}
+
+.text-center {
+  font-weight: 800;
 }
